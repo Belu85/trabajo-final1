@@ -1,0 +1,63 @@
+.general{
+    background-color:#fff0f5 ;
+
+    .atencion{
+        h2{
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+    }
+    .atencion-1{
+
+        align-self: baseline;
+        display: flex;
+        text-align: justify;
+        
+        img{
+            width: 300px;
+            height: 180px;
+            padding: 10px; 
+            margin-left:70px; 
+            margin-right: 50px;
+            margin-bottom: 50px;
+            border: 2px solid black;  
+            object-fit: cover;
+        }
+        .atencion-2{
+            color:black;
+            font-weight: bold;
+            text-align: justify;
+            margin: 0 0 0 10px;
+        }    
+    }
+}
+.general-1{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.general-1os{
+    display: grid;
+    grid-template-columns: 350px 300px 200px;
+    margin-left: 180px;
+
+    img{
+        width: 250px;
+    }
+    p{
+        color:black;
+        font-weight: bold;
+        text-align: justify;
+        margin: 0 0 0 10px;
+    }
+
+}
+
+
+
+
+
+
+
+

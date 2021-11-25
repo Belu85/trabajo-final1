@@ -1,0 +1,18 @@
+body{
+    padding-top: 70px;
+}
+.card{
+    margin-top: 50px;
+
+    .card-header{
+        background-color: #e0f8af;
+    }
+    .card-body{
+        background-color: #fff0f5;
+    }
+    .card-text{
+        font-family: monospace;
+        font-weight: bold;
+        text-align: justify;
+    }
+}
