@@ -33,16 +33,18 @@ h5{
     text-align: center;
 }
 footer{
-    background-image: linear-gradient(to bottom, #a6bd79 , #91cc1c);
-	height: 150px;
+    background-image: linear-gradient(to bottom, #a6bd79 , #d4f09e );
+	margin-top: 20px;
     font-weight: bold;
     vertical-align: middle;
-    padding-top: 40px;
+    padding-top: 30px;
+    text-align: right;
+    
 
         p{ 
             color: black;
-            letter-spacing: 2px;
-            font-size: 15px;
+            letter-spacing: 1px;
+            font-size: 10px;
             font-weight: bold;
         }
         a{
@@ -50,7 +52,22 @@ footer{
             text-decoration: none;
         }
         h6{
+            color: black;
+            letter-spacing: 1px;
+            font-size: 10px;
+            font-weight: bold;
             font-weight: bold;
             text-align: right;
         }
+}
+
+@media screen and (min-width: 780px) and (max-width:1024px){
+    
+}
+
+@media screen and (min-width: 480px) and (max-width:780px) {
+    
+}
+@media screen and (max-width:480px){
+    
 }

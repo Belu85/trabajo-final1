@@ -40,16 +40,17 @@ h5 {
 }
 
 footer {
-  background-image: linear-gradient(to bottom, #a6bd79, #91cc1c);
-  height: 150px;
+  background-image: linear-gradient(to bottom, #a6bd79, #d4f09e);
+  margin-top: 20px;
   font-weight: bold;
   vertical-align: middle;
-  padding-top: 40px;
+  padding-top: 30px;
+  text-align: right;
 }
 footer p {
   color: black;
-  letter-spacing: 2px;
-  font-size: 15px;
+  letter-spacing: 1px;
+  font-size: 10px;
   font-weight: bold;
 }
 footer a {
@@ -57,6 +58,10 @@ footer a {
   text-decoration: none;
 }
 footer h6 {
+  color: black;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: bold;
   font-weight: bold;
   text-align: right;
 }
@@ -71,7 +76,7 @@ footer h6 {
 }
 
 .seccion-1 {
-  background-color: #fff0f5;
+  background-color: white;
 }
 .seccion-1 h1 {
   padding-top: 100px;
@@ -79,7 +84,7 @@ footer h6 {
 .seccion-1 .card-group .card img {
   width: 340px;
   height: 150px;
-  background-color: #fff0f5;
+  background-color: white;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -91,12 +96,10 @@ footer h6 {
 
 .seccion-2 {
   padding-top: 50px;
-  background-color: #fff0f5;
 }
 .seccion-2 .row .col .card img {
   width: 340px;
   height: 150px;
-  background-color: #fff0f5;
   margin-top: 10px;
   margin-bottom: 10px;
   justify-content: space-between;
@@ -104,9 +107,6 @@ footer h6 {
   align-content: center;
 }
 
-.seccion-3 {
-  background-color: #fff0f5;
-}
 .seccion-3 .card-body {
   background-color: #c8f372;
 }
@@ -120,9 +120,6 @@ footer h6 {
   text-align: justify;
 }
 
-.capacitaciones {
-  background-color: #fff0f5;
-}
 .capacitaciones h2 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -135,42 +132,33 @@ footer h6 {
   padding-bottom: 30px;
 }
 
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+  .seccion-1 {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .seccion-1 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .seccion-1 {
+    width: 100%;
+  }
+}
 .secciones {
   padding-top: 50px;
-  background-color: #fff0f5;
+}
+.secciones .card-header {
+  background-color: #a6bd79;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .secciones img {
-  width: 1070px;
-  height: 250px;
-}
-.secciones h2 {
-  color: black;
-  text-align: center;
-  font-weight: bolder;
-  display: inline-block;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: xx-large;
+  width: 30px;
 }
 
-.redessociales {
-  text-align: center;
-}
-.redessociales h2 {
-  padding-top: 300px;
-  padding-bottom: 140px;
-}
-.redessociales img {
-  width: 250px;
-  height: 300px;
-  padding-top: 100px;
-}
-
-.contacto {
-  background-color: #fff0f5;
-}
 .contacto h2 {
   padding-top: 100px;
 }
@@ -178,12 +166,25 @@ footer h6 {
   padding-top: 50px;
 }
 .contacto .container button {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
+.info {
+  padding-left: 20px;
+}
+
+.ubicacion .card-header {
+  background-color: #a6bd79;
+  margin-top: 20px;
+}
 .ubicacion h2 {
   padding-bottom: 50px;
+}
+.ubicacion h3 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .ubicacion iframe {
   padding-bottom: 50px;
@@ -200,10 +201,12 @@ body {
   margin-top: 50px;
 }
 .card .card-header {
-  background-color: #e0f8af;
+  background-color: #a6bd79;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .card .card-body {
-  background-color: #fff0f5;
+  background-color: white;
 }
 .card .card-text {
   font-family: monospace;
@@ -211,12 +214,14 @@ body {
   text-align: justify;
 }
 
-.especialidades {
-  background-color: #fff0f5;
+.especialidades .card-header {
+  background-color: #a6bd79;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .especialidades .especialidades-1 {
   display: grid;
-  grid-template-columns: 50px auto auto auto;
+  grid-template-columns: 30px auto auto auto;
   align-items: center;
 }
 .especialidades .especialidades-1 h3 {
@@ -224,7 +229,7 @@ body {
 }
 .especialidades .especialidades-1 p {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
   text-align: justify center;
 }
 .especialidades .especialidades-1 img {
@@ -249,8 +254,25 @@ body {
   height: 150px;
 }
 
-.general {
-  background-color: #fff0f5;
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+  .especialidades {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .especialidades {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .especialidades {
+    width: 100%;
+  }
+}
+.general .card-header {
+  background-color: #a6bd79;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .general .atencion h2 {
   padding-top: 80px;
@@ -274,8 +296,9 @@ body {
 .general .atencion-1 .atencion-2 {
   color: black;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
   margin: 0 0 0 10px;
+  padding-right: 15px;
 }
 
 .general-1 {

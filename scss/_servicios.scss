@@ -1,5 +1,10 @@
 .general{
-    background-color:#fff0f5 ;
+
+    .card-header{
+        background-color: #a6bd79;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
 
     .atencion{
         h2{
@@ -26,8 +31,9 @@
         .atencion-2{
             color:black;
             font-weight: bold;
-            text-align: justify;
+            text-align: center;
             margin: 0 0 0 10px;
+            padding-right: 15px;
         }    
     }
 }

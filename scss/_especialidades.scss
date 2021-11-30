@@ -1,9 +1,14 @@
 .especialidades{
-        background-color: #fff0f5;
+
+    .card-header{
+        background-color: #a6bd79;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
     .especialidades-1{
         display: grid;
-        grid-template-columns: 50px auto auto auto;
+        grid-template-columns: 30px auto auto auto;
         align-items: center;
         
         h3{
@@ -12,7 +17,7 @@
         
         p{
             font-weight:bold ;
-            font-size: 15px;
+            font-size: 12px;
             text-align:justify center;
         }
         img{
@@ -42,4 +47,21 @@
             height: 150px;
         }
 }
+}
+
+@media screen and (min-width: 780px) and (max-width:1024px){
+    .especialidades {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width:780px) {
+    .especialidades {
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px){
+    .especialidades {
+        width: 100%;
+    }
 }
