@@ -8,96 +8,133 @@
     margin-left: 80px;
     }
 }
-.seccion-1{
+.inicio{
 
-    background-color: white;
-    
-    h1{
-        padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    img{
+        width: 340px;
+        height: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-content: center;
+        border: 2px solid;
+        box-shadow: 2px 2px 10px rgba(0,0,0, 2);
     }
-    .card-group{
-
-        .card{
-            img{
-                width: 340px;
-                height: 150px;
-                background-color: white;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                margin-right: 10px;
-                margin-left: 10px;
-                justify-content: space-between;
-                flex-wrap: nowrap;
-                align-content: center;
-            }
-        }
-    }
-}
-.seccion-2{
-    padding-top: 50px;
-
-
-    .row{
-        .col{
-            .card{
-                img{
-                    width: 340px;
-                    height: 150px;
-                    margin-top: 10px;
-                    margin-bottom: 10px;
-                    justify-content: space-between;
-                    flex-wrap: nowrap;
-                    align-content: center;
-                    }
-
-            }
-        }
-    }
-}
-.seccion-3{
-
-    .card-body{
-            background-color: #c8f372;
-    }
-    h4{
-        font-weight: bolder;
+    .inicio-1{
+        background-color: green;
+        grid-column-start: 1;
+        grid-column-end: 2;
         text-align: center;
-    }
-    p{
-        font-family: monospace;
-        font-size: 15px;
-        text-align: justify;
-    }
+        align-items: center;
+        justify-content: center;
 }
-.capacitaciones{
-    
-    h2{
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    
-    div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    padding-bottom: 30px;
-    }
+    .inicio-2{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+    .inicio-3{
+    background-color: red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+    .inicio-4{
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 }
 
-@media screen and (min-width: 780px) and (max-width:1024px){
-    .seccion-1 {
-        width: 50%;
+@media screen and (max-width: $xxs) {
+    .inicio .inicio-1 {
+        grid-column: 1 / -1;
     }
-}
-
-@media screen and (min-width: 480px) and (max-width:780px) {
-    .seccion-1 {
-        width: 100%;
+    .inicio .inicio-2 {
+     grid-column: 1 / -1;
+     }
+ 
+    .inicio .inicio-3{
+         grid-column: 1 / -1;
+     }
+    .inicio .inicio-4{
+         grid-column: 1 / -1;
+     }
+ }
+ @media screen and (max-width: $xs) {
+    .inicio .inicio-1 {
+        grid-column: 1 / -1;
     }
-}
-@media screen and (max-width:480px){
-    .seccion-1 {
-        width: 100%;
+    .inicio .inicio-2 {
+     grid-column: 1 / -1;
+     }
+ 
+    .inicio .inicio-3{
+         grid-column: 1 / -1;
+     }
+    .inicio .inicio-4{
+         grid-column: 1 / -1;
+     }
+  }
+ @media screen and (max-width: $sm) {
+    .inicio .inicio-1 {
+        grid-column: 1 / -1;
     }
-}
+    .inicio .inicio-2 {
+     grid-column: 1 / -1;
+     }
+ 
+    .inicio .inicio-3{
+         grid-column: 1 / -1;
+     }
+    .inicio .inicio-4{
+         grid-column: 1 / -1;
+         font-size: 20px;
+     }
+ 
+     }
+ @media screen and (max-width: $md) {
+    .inicio .inicio-1 {
+        grid-column: 1fr 1fr 1fr;
+    }
+    .inicio .inicio-2 {
+     grid-column: 1fr 1fr 1fr;
+     }
+ 
+    .inicio .inicio-3{
+         grid-column: 1fr 1fr 1fr;
+     }
+    .inicio .inicio-4{
+         grid-column:1fr 1fr 1fr;
+     }
+ }
+ @media screen and (max-width: $lg) {
+    .inicio .inicio-1 {
+        grid-column: 1fr 1fr 1fr;
+    }
+    .inicio .inicio-2 {
+     grid-column: 1fr 1fr 1fr;
+     }
+ 
+    .inicio .inicio-3{
+         grid-column: 1fr 1fr 1fr;
+     }
+    .inicio .inicio-4{
+         grid-column:1fr 1fr 1fr;
+     }
+ }

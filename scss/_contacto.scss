@@ -48,9 +48,24 @@
         padding-bottom: 50px;
         padding-top: 40px; 
         padding-left: 140px;
-        width: 900px;
+        width: 700px;
+        align-content: center;
+        @media screen and (max-width: $xxs){
+                width: 50%;
+                align-content: center;
+            }
+        @media screen and (max-width: $xs){
+                width: 50%;
+                align-content: center;
+            }
+        @media screen and (max-width: $sm) {
+                width: 70%;
+                }
+        @media screen and (max-width: $md){
+                width: 80%;
+        }
+        @media screen and (max-width: $lg){
+            width: 80%;
+    }
     }
 }
-
-
-    

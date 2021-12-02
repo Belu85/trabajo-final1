@@ -1,67 +1,70 @@
+.card-header{
+    background-color: #a6bd79;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .especialidades{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
 
-    .card-header{
-        background-color: #a6bd79;
-        padding-top: 20px;
-        padding-bottom: 20px;
+
+    img{
+        width: 300px;
+        height: 150px;
     }
 
     .especialidades-1{
-        display: grid;
-        grid-template-columns: 30px auto auto auto;
+        background-color: green;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
         align-items: center;
-        
-        h3{
-            text-align: center;
-        }
-        
-        p{
-            font-weight:bold ;
-            font-size: 12px;
-            text-align:justify center;
-        }
-        img{
-            width: 300px;
-            height: 150px;
-        }
+        justify-content: center;
     }
-
 
     .especialidades-2{
-        display: grid;
-        grid-template-columns: 200px 300px 300px;
-        column-gap: 40px; 
+        background-color: salmon;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 
-        h3{
-            text-align: center;
-        }
-        
-        p{
-            font-weight:bold ;
-            font-size: 15px;
-            text-align:justify center;
-        }
-        
-        img{
-            width: 300px;
-            height: 150px;
-        }
-}
 }
 
-@media screen and (min-width: 780px) and (max-width:1024px){
-    .especialidades {
-        width: 50%;
+@media screen and (max-width: $xxs) {
+    .especialidades .especialidades-1 {
+        grid-column: 1fr;
     }
-}
-
-@media screen and (min-width: 480px) and (max-width:780px) {
-    .especialidades {
-        width: 100%;
+    .especialidades .especialidades-2 {
+     grid-column: 1 / 3;
+     }
+ }
+ 
+ @media screen and (max-width: $sm) {
+    .especialidades .especialidades-1 {
+        grid-column: 1 / -1;
     }
-}
-@media screen and (max-width:480px){
-    .especialidades {
-        width: 100%;
-    }
-}
+    .especialidades .especialidades-2 {
+     grid-column: 1 / -1;
+     }
+ }
+ 
+ @media screen and (max-width: $md) {
+    .especialidades .especialidades-1 {
+             grid-column: 1fr 1fr 1fr;
+         }
+    .especialidades .especialidades-2 {
+          grid-column: 1fr 1fr 1fr;
+         }
+        }
