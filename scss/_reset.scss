@@ -4,7 +4,8 @@
     font-family: 'Nunito', sans-serif;
 }
 .navbar{
-    background-color:#a6bd79;
+    background-color:#99A799;
+    
 }
 .logo{
     width: 100px;
@@ -14,7 +15,8 @@ h1{
     letter-spacing: 2px;
     font-size: 40px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 h2{
     color: black;
@@ -33,7 +35,7 @@ h5{
     text-align: center;
 }
 footer{
-    background-image: linear-gradient(to bottom, #a6bd79 , #d4f09e );
+    background-image: linear-gradient(to bottom, #99A799 , #D3E4CD );
 	margin-top: 20px;
     font-weight: bold;
     vertical-align: middle;
@@ -46,6 +48,7 @@ footer{
             letter-spacing: 1px;
             font-size: 10px;
             font-weight: bold;
+            font-family:'Nunito', sans-serif;
         }
         a{
             color: black;
@@ -59,15 +62,4 @@ footer{
             font-weight: bold;
             text-align: right;
         }
-}
-
-@media screen and (min-width: 780px) and (max-width:1024px){
-    
-}
-
-@media screen and (min-width: 480px) and (max-width:780px) {
-    
-}
-@media screen and (max-width:480px){
-    
 }

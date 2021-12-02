@@ -1,5 +1,5 @@
 .card-header{
-        background-color: #a6bd79;
+        background-color: #E2C2B9;
         padding-bottom: 20px;
         padding-top: 20px;
 
@@ -10,7 +10,7 @@
 }
 
 .contenedor{
-    border: 10px solid;
+   
     margin-bottom: 20px;
     margin-top: 20px;
     margin-left: 10px;
@@ -19,6 +19,9 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 
+        div{
+           border-style: outset; border-width: 4px solid; 
+        }
 
         img{
             width: 300px;
@@ -33,7 +36,7 @@
 
 
     .atencion{
-        background-color: green;
+        background-color: #D3E4CD;
         grid-column-start: 1;
         grid-column-end: 2;
         text-align: center;
@@ -41,7 +44,7 @@
         justify-content: center;
     }
     .texto{
-        background-color: salmon;
+        background-color: #D3E4CD;
         grid-column-start: 2;
         grid-column-end: 4;
         text-align: center;
@@ -61,18 +64,17 @@
 }     
 
 .noticias{
-    width: 90%;
-    max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
     margin-top:20px;
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     grid-gap: 20px;
 
     .obrasoc{
-        background-color: cadetblue;
+        background-color: #F2DDC1;
         grid-column-start: 1;
         grid-column-end: 2;
         text-align: center;
@@ -83,21 +85,32 @@
             list-style: none;
             color: black;
             font-weight: bolder;
-            font-family:Arial, Helvetica, sans-serif;
+            font-family:'Nunito', sans-serif;
+            font-size: 20px;
+            padding-top: 10px;
         }
 
     }
     .novedades-1{
-        background-color:coral;
+        background-color:#D3E4CD;
         grid-column-start: 2;
         grid-column-end: 3;
         text-align: center;
         align-items: center;
         justify-content: center;
+
+        .card-header{
+            background-color: #99A799;
+        }
+
+        img{
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
     }
 
     .novedades-2{
-        background-color:darkgoldenrod;
+        background-color:#F2DDC1;
         grid-column-start: 3;
         grid-column-end: 4;
         text-align: center;
@@ -106,7 +119,8 @@
             list-style: none;
             color: black;
             font-weight: bolder;
-            font-family:Arial, Helvetica, sans-serif;
+            font-family:'Nunito', sans-serif;
+            font-size: 20px;
         }
     }
 
