@@ -303,13 +303,13 @@ footer h6 {
   max-height: 100px;
   max-width: 100%;
 }
-.secciones .secciones-1 form #boton {
+.secciones .secciones-1 form .btn {
   background: #99A799;
   color: white;
   font-weight: bolder;
   padding: 20px;
 }
-.secciones .secciones-1 form #boton #boton:hoover {
+.secciones .secciones-1 form .btn #boton:hoover {
   cursor: pointer;
 }
 @media screen and (max-width: 575px) {
