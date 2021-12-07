@@ -160,6 +160,7 @@ footer h6 {
   .inicio .inicio-4 {
     grid-column: 1/-1;
     font-size: 13px;
+    font-family: "Nunito", sans-serif;
   }
 }
 @media screen and (max-width: 767px) {
@@ -180,9 +181,11 @@ footer h6 {
   }
   .inicio .inicio-4 p {
     font-size: 13px;
+    font-family: "Nunito", sans-serif;
   }
   .inicio .inicio-4 li {
     font-size: 13px;
+    font-family: "Nunito", sans-serif;
   }
 }
 @media screen and (max-width: 991px) {

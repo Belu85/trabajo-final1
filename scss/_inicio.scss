@@ -92,6 +92,7 @@
     .inicio .inicio-4{
          grid-column: 1 / -1;
          font-size: 13px;
+         font-family: 'Nunito', sans-serif;
      }
  }
  @media screen and (max-width: $xs) {
@@ -109,9 +110,11 @@
          grid-column: 1 / -1;
          p{
              font-size: 13px;
+             font-family: 'Nunito', sans-serif;
          }
          li{
             font-size: 13px;
+            font-family: 'Nunito', sans-serif;
          }
      }
   }
