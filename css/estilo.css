@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Fuzzy Bubbles";
+  font-family: "Nunito", sans-serif;
 }
 
 .navbar {
@@ -47,6 +47,11 @@ footer {
   vertical-align: middle;
   padding-top: 30px;
   text-align: right;
+}
+footer .redes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
 }
 footer p {
   color: black;
@@ -126,7 +131,7 @@ footer h6 {
   text-align: justify;
   align-items: center;
   justify-content: center;
-  font-family: "Fuzzy Bubbles";
+  font-family: "Nunito", sans-serif;
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -367,11 +372,11 @@ body {
   justify-content: center;
 }
 .especialidades .especialidades-1 h3 {
-  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Nunito", sans-serif;
   font-size: 27px;
 }
 .especialidades .especialidades-1 p {
-  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Nunito", sans-serif;
   font-size: 17px;
   padding-top: 10px;
 }
@@ -384,11 +389,11 @@ body {
   justify-content: center;
 }
 .especialidades .especialidades-2 h3 {
-  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Nunito", sans-serif;
   font-size: 27px;
 }
 .especialidades .especialidades-2 p {
-  font-family: "Fuzzy Bubbles", cursive;
+  font-family: "Nunito", sans-serif;
   font-size: 17px;
   padding-top: 10px;
 }
