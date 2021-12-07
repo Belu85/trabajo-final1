@@ -256,20 +256,95 @@ footer h6 {
 .secciones img {
   width: 30px;
 }
-
-.contacto h2 {
-  padding-top: 100px;
+.secciones .secciones-1 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-items: center;
 }
-.contacto .container {
-  padding-top: 50px;
+.secciones .secciones-1 .info {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 50px;
 }
-.contacto .container button {
-  margin-top: 40px;
+.secciones .secciones-1 .formulario {
+  background-color: #D3E4CD;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  grid-column: span 2;
+}
+.secciones .secciones-1 form {
+  width: 450px;
+  margin: auto;
+  background: black;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: "Nunito", sans-serif;
+}
+.secciones .secciones-1 form h4 {
+  font-size: 20px;
   margin-bottom: 20px;
+  font-weight: bolder;
 }
-
-.info {
-  padding-left: 20px;
+.secciones .secciones-1 form input, .secciones .secciones-1 form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none;
+}
+.secciones .secciones-1 form textarea {
+  min-height: 70px;
+  max-height: 100px;
+  max-width: 100%;
+}
+.secciones .secciones-1 form #boton {
+  background: #99A799;
+  color: white;
+  font-weight: bolder;
+  padding: 20px;
+}
+.secciones .secciones-1 form #boton #boton:hoover {
+  cursor: pointer;
+}
+@media screen and (max-width: 575px) {
+  .secciones .secciones-1 .info {
+    grid-column: 1/-1;
+    justify-content: center;
+  }
+  .secciones .secciones-1 .formulario {
+    width: 100%;
+    align-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .secciones form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .secciones form {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .secciones form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .secciones form {
+    width: 80%;
+  }
 }
 
 .ubicacion .card-header {
