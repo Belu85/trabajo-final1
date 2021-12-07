@@ -84,6 +84,7 @@
         }
     .secciones-1 .formulario{
         width: 100%;
+        grid-column: 1 / -1;
         align-content: center;
         justify-content: center;
     }
