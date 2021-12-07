@@ -62,22 +62,36 @@
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 }
 
 @media screen and (max-width: $xxs) {
     .inicio .inicio-1 {
         grid-column: 1 / -1;
+        img{
+            width: 240px;
+            height: 100px;
+        }
     }
     .inicio .inicio-2 {
      grid-column: 1 / -1;
+     img{
+        width: 240px;
+        height: 100px;
+    }
      }
  
     .inicio .inicio-3{
          grid-column: 1 / -1;
+         img{
+            width: 240px;
+            height: 100px;
+        }
      }
     .inicio .inicio-4{
          grid-column: 1 / -1;
+         font-size: 13px;
      }
  }
  @media screen and (max-width: $xs) {
@@ -93,6 +107,12 @@
      }
     .inicio .inicio-4{
          grid-column: 1 / -1;
+         p{
+             font-size: 13px;
+         }
+         li{
+            font-size: 13px;
+         }
      }
   }
  @media screen and (max-width: $sm) {

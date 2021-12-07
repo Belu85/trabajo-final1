@@ -24,7 +24,7 @@
         }
 
         img{
-            width: 300px;
+            width: 280px;
             height: 180px;
             border: 2px solid black; 
             padding: 10px; 
@@ -131,19 +131,36 @@
 @media screen and (max-width: $xxs) {
    .contenedor .atencion {
        grid-column: 1 / -1;
+       justify-content: center;
+    img{
+        width: 200px;
+        height: 100px;
+    }
+    h3{
+        font-size: 18px;
+    }
    }
    .contenedor .texto {
     grid-column: 1 / -1;
+    font-size: 13px;
     }
 
     .noticias .obrasoc{
         grid-column: 1 / -1;
+        li{
+            font-size: 15px;
+        }
     }
     .noticias .novedades-1{
         grid-column: 1 / -1;
+        img{
+            width: 250px;
+            height: 150px;
+        }
     }
     .noticias .novedades-2{
         grid-column: 1 / -1;
+        font-size: 15px;
     }
 }
 @media screen and (max-width: $xs) {
@@ -162,6 +179,9 @@
      }
      .noticias .novedades-2{
          grid-column: 1 / -1;
+         li{
+             font-size: 15px;
+         }
      }
  }
 @media screen and (max-width: $sm) {
