@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  background-color: #99A799;
+  background-color: #DEFBC2;
 }
 .navbar .navbar-nav .nav-link {
   color: black;
@@ -77,8 +77,8 @@ footer h6 {
   text-align: right;
 }
 footer img {
-  width: 45px;
-  height: 40px;
+  width: 35px;
+  height: 30px;
 }
 
 .navbar-nav .nav-link {
