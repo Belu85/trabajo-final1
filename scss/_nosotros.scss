@@ -3,6 +3,8 @@ body{
 }
 .card{
     margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
 
     .card-header{
         background-color: #99A799;
@@ -11,11 +13,13 @@ body{
     }
     .card-body{
         background-color: white;
+        
     }
     .card-text{
         font-family:'Nunito', sans-serif;
         font-weight: bold;
         text-align: justify;
+        
         
     }
 }

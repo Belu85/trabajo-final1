@@ -26,6 +26,11 @@
             text-align: center;
             margin-top: 60px;
             margin-right: 50px;
+
+            img{
+                width: 50px;
+                height: 40px;
+            }
         }
 
         .formulario{
@@ -45,7 +50,7 @@
         border-radius: 10px;
         font-family: 'Nunito', sans-serif;
 
-        h4{
+        h3{
             font-size: 20px;
             margin-bottom: 20px;
             font-weight: bolder;
@@ -65,7 +70,7 @@
         }
         .btn{
             background: #99A799;
-            color: white;
+            color: black;
             font-weight: bolder;
             padding: 20px;
 
@@ -87,6 +92,7 @@
         grid-column: 1 / -1;
         align-content: center;
         justify-content: center;
+        margin-right: 10px;
     }
     
 }
@@ -100,6 +106,7 @@
         width: 100%;
         align-content: center;
         justify-content: center;
+        margin-right: 10px;
     }
 }
 @media screen and (max-width: $sm) {

@@ -15,8 +15,8 @@
     grid-template-rows: 1fr 1fr;
 
     img{
-        width: 340px;
-        height: 150px;
+        width: 336px;
+        height: 146px;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 10px;
@@ -59,6 +59,8 @@
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 }
@@ -67,23 +69,23 @@
     .inicio .inicio-1 {
         grid-column: 1 / -1;
         img{
-            width: 240px;
-            height: 100px;
+            width: 236px;
+            height: 96px;
         }
     }
     .inicio .inicio-2 {
      grid-column: 1 / -1;
      img{
-        width: 240px;
-        height: 100px;
+        width: 236px;
+        height: 96px;
     }
      }
  
     .inicio .inicio-3{
          grid-column: 1 / -1;
          img{
-            width: 240px;
-            height: 100px;
+            width: 236px;
+            height: 96px;
         }
      }
     .inicio .inicio-4{

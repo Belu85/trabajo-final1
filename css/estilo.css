@@ -7,9 +7,14 @@
 .navbar {
   background-color: #99A799;
 }
+.navbar .navbar-nav .nav-link {
+  color: black;
+  font-weight: bolder;
+}
 
 .logo {
   width: 80px;
+  height: auto;
 }
 
 h1 {
@@ -71,6 +76,10 @@ footer h6 {
   font-weight: bold;
   text-align: right;
 }
+footer img {
+  width: 45px;
+  height: 40px;
+}
 
 .navbar-nav .nav-link {
   color: black;
@@ -87,8 +96,8 @@ footer h6 {
   grid-template-rows: 1fr 1fr;
 }
 .inicio img {
-  width: 340px;
-  height: 150px;
+  width: 336px;
+  height: 146px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -131,6 +140,8 @@ footer h6 {
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 575px) {
@@ -138,24 +149,24 @@ footer h6 {
     grid-column: 1/-1;
   }
   .inicio .inicio-1 img {
-    width: 240px;
-    height: 100px;
+    width: 236px;
+    height: 96px;
   }
 
   .inicio .inicio-2 {
     grid-column: 1/-1;
   }
   .inicio .inicio-2 img {
-    width: 240px;
-    height: 100px;
+    width: 236px;
+    height: 96px;
   }
 
   .inicio .inicio-3 {
     grid-column: 1/-1;
   }
   .inicio .inicio-3 img {
-    width: 240px;
-    height: 100px;
+    width: 236px;
+    height: 96px;
   }
 
   .inicio .inicio-4 {
@@ -268,6 +279,10 @@ footer h6 {
   margin-top: 60px;
   margin-right: 50px;
 }
+.secciones .secciones-1 .info img {
+  width: 50px;
+  height: 40px;
+}
 .secciones .secciones-1 .formulario {
   background-color: #D3E4CD;
   background-size: 100vw 100vh;
@@ -285,7 +300,7 @@ footer h6 {
   border-radius: 10px;
   font-family: "Nunito", sans-serif;
 }
-.secciones .secciones-1 form h4 {
+.secciones .secciones-1 form h3 {
   font-size: 20px;
   margin-bottom: 20px;
   font-weight: bolder;
@@ -305,7 +320,7 @@ footer h6 {
 }
 .secciones .secciones-1 form .btn {
   background: #99A799;
-  color: white;
+  color: black;
   font-weight: bolder;
   padding: 20px;
 }
@@ -323,6 +338,7 @@ footer h6 {
     grid-column: 1/-1;
     align-content: center;
     justify-content: center;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -335,6 +351,7 @@ footer h6 {
     width: 100%;
     align-content: center;
     justify-content: center;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -406,6 +423,8 @@ body {
 
 .card {
   margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .card .card-header {
   background-color: #99A799;
@@ -455,6 +474,8 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .especialidades .especialidades-1 h3 {
   font-family: "Nunito", sans-serif;
@@ -465,13 +486,19 @@ body {
   font-size: 17px;
   padding-top: 10px;
 }
+.especialidades .especialidades-1 img {
+  width: 300px;
+  height: 150px;
+}
 .especialidades .especialidades-2 {
-  background-color: #D3E4CD;
+  background-color: #FFFDF9;
   grid-column-start: 2;
   grid-column-end: 3;
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .especialidades .especialidades-2 h3 {
   font-family: "Nunito", sans-serif;
@@ -481,6 +508,10 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 17px;
   padding-top: 10px;
+}
+.especialidades .especialidades-2 img {
+  width: 300px;
+  height: 150px;
 }
 
 @media screen and (max-width: 575px) {
@@ -546,6 +577,7 @@ body {
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 10px;
+  margin-right: 5px;
   display: grid;
   grid-gap: 20px;
   grid-template-rows: 1fr 1fr 1fr;
