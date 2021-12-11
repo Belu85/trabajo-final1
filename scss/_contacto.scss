@@ -3,9 +3,9 @@
     .card-header{
         background-color: #C8E3D4;
         padding-bottom: 20px;
-        padding-top: 40px;
+        padding-top: 20px;
     }
-    padding-top: 50px;
+    padding-top: 60px;
 
         img{
             width:30px;
@@ -80,6 +80,13 @@
         }
         
     }
+}
+.card-header1{
+        background-color: #F3F0D7;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 40px;
+
 }
 @media screen and (max-width: $xxs){
     .card-header{
