@@ -23,7 +23,7 @@ h1 {
   letter-spacing: 2px;
   font-size: 40px;
   text-align: center;
-  padding-top: 140px;
+  padding-top: 120px;
   padding-bottom: 30px;
 }
 
@@ -254,7 +254,7 @@ footer img {
   }
 }
 .secciones {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 .secciones .card-header {
   background-color: #C8E3D4;
@@ -329,7 +329,7 @@ footer img {
   cursor: pointer;
 }
 .secciones .card-header1 {
-  background-color: #F3F0D7;
+  background-color: #C8E3D4;
   padding-bottom: 20px;
   padding-top: 20px;
   margin-top: 40px;
@@ -425,6 +425,10 @@ footer img {
   .ubicacion iframe {
     width: 80%;
   }
+}
+
+body {
+  padding-top: 70px;
 }
 
 .nosotros {
