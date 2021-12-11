@@ -1,9 +1,9 @@
 .secciones{
 
     .card-header{
-        background-color: #99A799;
+        background-color: #C8E3D4;
         padding-bottom: 20px;
-        padding-top: 20px;
+        padding-top: 40px;
     }
     padding-top: 50px;
 
@@ -82,6 +82,9 @@
     }
 }
 @media screen and (max-width: $xxs){
+    .card-header{
+        padding-top: 40px;
+    }
     .secciones-1 .info{
             grid-column: 1 / -1;
             justify-content: center;

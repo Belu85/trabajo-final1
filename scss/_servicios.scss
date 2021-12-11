@@ -1,7 +1,10 @@
+.servicios{
+    padding-top: 50px;
+}
 .card-header{
-        background-color: #99A799;
+        background-color: #C8E3D4;
         padding-bottom: 20px;
-        padding-top: 20px;
+        padding-top: 40px;
 
         h2{
             padding-top: 80px;
@@ -137,6 +140,9 @@
 
 
 @media screen and (max-width: $xxs) {
+    .card-header{
+        padding-top: 40px;
+    }
    .contenedor .atencion {
        grid-column: 1 / -1;
        justify-content: center;

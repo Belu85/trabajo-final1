@@ -5,7 +5,8 @@
 }
 
 .navbar {
-  background-color: #99A799;
+  background-color: #96BAFF;
+  margin: 0 auto;
 }
 .navbar .navbar-nav .nav-link {
   color: black;
@@ -22,7 +23,7 @@ h1 {
   letter-spacing: 2px;
   font-size: 40px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 140px;
   padding-bottom: 30px;
 }
 
@@ -256,9 +257,9 @@ footer img {
   padding-top: 50px;
 }
 .secciones .card-header {
-  background-color: #99A799;
+  background-color: #C8E3D4;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .secciones img {
   width: 30px;
@@ -328,6 +329,9 @@ footer img {
   cursor: pointer;
 }
 @media screen and (max-width: 575px) {
+  .secciones .card-header {
+    padding-top: 40px;
+  }
   .secciones .secciones-1 .info {
     grid-column: 1/-1;
     justify-content: center;
@@ -417,8 +421,8 @@ footer img {
   }
 }
 
-body {
-  padding-top: 70px;
+.nosotros {
+  padding-top: 50px;
 }
 
 .card {
@@ -427,7 +431,7 @@ body {
   margin-right: 5px;
 }
 .card .card-header {
-  background-color: #99A799;
+  background-color: #C8E3D4;
   padding-bottom: 10px;
   padding-top: 20px;
 }
@@ -440,8 +444,12 @@ body {
   text-align: justify;
 }
 
+.general {
+  padding-top: 50px;
+}
+
 .card-header {
-  background-color: #99A799;
+  background-color: #C8E3D4;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 20px;
@@ -476,6 +484,7 @@ body {
   justify-content: center;
   margin-left: 5px;
   margin-right: 5px;
+  padding-bottom: 40px;
 }
 .especialidades .especialidades-1 h3 {
   font-family: "Nunito", sans-serif;
@@ -499,6 +508,7 @@ body {
   justify-content: center;
   margin-left: 5px;
   margin-right: 5px;
+  padding-bottom: 40px;
 }
 .especialidades .especialidades-2 h3 {
   font-family: "Nunito", sans-serif;
@@ -563,10 +573,14 @@ body {
     grid-column: 1fr 1fr 1fr;
   }
 }
+.servicios {
+  padding-top: 50px;
+}
+
 .card-header {
-  background-color: #99A799;
+  background-color: #C8E3D4;
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .card-header h2 {
   padding-top: 80px;
@@ -684,6 +698,10 @@ body {
 }
 
 @media screen and (max-width: 575px) {
+  .card-header {
+    padding-top: 40px;
+  }
+
   .contenedor .atencion {
     grid-column: 1/-1;
     justify-content: center;
